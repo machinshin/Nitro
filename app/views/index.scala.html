@@ -1,7 +1,18 @@
-@(message: String)
+@(searchForm:Form[SearchParams])
+@import helper._
 
-@main("Welcome to Play 2.1") {
-    
-    @play20.welcome(message, style = "Java")
-    
+@main("Restaurant Query") {
+<h1> Welcome to Nitro! </h1>
+
+@helper.form(routes.Application.search()) { 
+@helper.inputText(searchForm("zipCode"))
+@helper.inputText(searchForm("businessName"))
+
+@helper.select( searchForm("category"), options(
+		Seq("Hotel", "Restaurant", "Bar", "Coffee Shop")))
+
+	<input type="submit" value="Search">
+ }
+
 }
+

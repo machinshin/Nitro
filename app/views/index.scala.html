@@ -4,14 +4,22 @@
 @main("Restaurant Query") {
 <h1> Welcome to Nitro! </h1>
 
-@helper.form(routes.Application.search()) { 
-@helper.inputText(searchForm("zipCode"))
-@helper.inputText(searchForm("businessName"))
+@helper.form( action = routes.Application.search, args = 'id -> "searchForm") { 
+@helper.inputText(
+	field = searchForm("zipCode"), 
+	args = '_label -> "Zip Code", 'placeholder -> "94025" )
 
-@helper.select( searchForm("category"), options(
-		Seq("Hotel", "Restaurant", "Bar", "Coffee Shop")))
+@helper.inputText(
+	field = searchForm("businessName"),
+	args = '_label -> "Business Name", 'placeholder -> "Johnny's Pizza")
 
-	<input type="submit" value="Search">
+@helper.select( searchForm("Category"), options(
+	Seq("Hotel", "Restaurant", "Bar", "Coffee Shop")), 
+	args = '_label -> "Choose a Business Type"
+	)
+	<p class="buttons">
+		<input type="submit" value="Search">
+	</p>
  }
 
 }

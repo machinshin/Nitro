@@ -1,0 +1,27 @@
+
+Due by April 3rd, 2013
+----------------------------------
+Distributions of Group Project when2promote for next time (Wednesday after class)
+
+Rohit
+getting data from yelp api
+
+Yanan
+getting data from twitter api
+
+Vat
+- front end of website/GUI
+input text boxes: location/zip code, business name
+dropdown menu: category (hotel, restaurant, etc)
+Submit button
+
+- Algorithm of processing yelp and twitter data
+if we need database to store past history of ratings?
+
+Kamal
+work on the final document and powerpoint
+-------------------------------------
+
+Due by April 10th, 2013
+-------------------------------------
+-------------------------------------

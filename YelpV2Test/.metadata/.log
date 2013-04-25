@@ -1,0 +1,638 @@
+!SESSION 2013-04-24 20:22:37.157 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -data C:\Users\DYN\Documents\GitHub\Nitro\YelpV2Test -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2013-04-24 20:22:37.751
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:37.898
+!MESSAGE NLS unused message: Phase_Configure_Task in: org.eclipse.equinox.internal.p2.engine.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:37.898
+!MESSAGE NLS unused message: Phase_Install_Task in: org.eclipse.equinox.internal.p2.engine.messages
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2013-04-24 20:22:39.064
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2013-04-24 20:22:39.616
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.430
+!MESSAGE NLS unused message: useDefaultLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.434
+!MESSAGE NLS unused message: linkedResourcesPreference_copy in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.434
+!MESSAGE NLS unused message: LinkedResourcesPreference_promptVirtual in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.435
+!MESSAGE NLS unused message: PathVariableDialog_variableResolvedValue in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.435
+!MESSAGE NLS unused message: PathVariableDialog_variable in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.436
+!MESSAGE NLS unused message: ResourceFilterPage_noResource in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.436
+!MESSAGE NLS unused message: ResourceFilterPage_addButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.436
+!MESSAGE NLS unused message: ResourceFilterPage_editButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.437
+!MESSAGE NLS unused message: ResourceFilterPage_removeButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.437
+!MESSAGE NLS unused message: ResourceFilterPage_columnFilterDescription in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.437
+!MESSAGE NLS unused message: ResourceFilterPage_caseSensitive in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.438
+!MESSAGE NLS unused message: ResourceFilterPage_multiMatcher_Matcher in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.438
+!MESSAGE NLS unused message: ResourceFilterPage_addSubFilterActionLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.438
+!MESSAGE NLS unused message: ResourceFilterPage_removeFilterActionLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.439
+!MESSAGE NLS unused message: ResourceFilterPage_editFilterActionLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.439
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.439
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.440
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyCreated in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.440
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyReadOnly in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.440
+!MESSAGE NLS unused message: ResourceFilterPage_multiEquals in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.441
+!MESSAGE NLS unused message: ResourceFilterPage_multiMatches in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.441
+!MESSAGE NLS unused message: ResourceFilterPage_true in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.442
+!MESSAGE NLS unused message: ResourceFilterPage_false in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.442
+!MESSAGE NLS unused message: ResourceInfo_virtualFolder in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.442
+!MESSAGE NLS unused message: ResourceInfo_edit in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.443
+!MESSAGE NLS unused message: ResourceInfo_attributes in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.443
+!MESSAGE NLS unused message: ResourceInfo_owner in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.443
+!MESSAGE NLS unused message: ResourceInfo_group in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.444
+!MESSAGE NLS unused message: ResourceInfo_other in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.444
+!MESSAGE NLS unused message: ResourceInfo_read in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.444
+!MESSAGE NLS unused message: ResourceInfo_write in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.445
+!MESSAGE NLS unused message: ResourceInfo_execute in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.445
+!MESSAGE NLS unused message: ProjectLinkedResourcePage_linkedResourcesTabTitle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.445
+!MESSAGE NLS unused message: LinkedResourceEditor_editLinkedLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.446
+!MESSAGE NLS unused message: LinkedResourceEditor_path in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.446
+!MESSAGE NLS unused message: LinkedResourceEditor_location in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.446
+!MESSAGE NLS unused message: LinkedResourceEditor_broken in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.447
+!MESSAGE NLS unused message: linkedResourceEditor_OK in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.447
+!MESSAGE NLS unused message: PathVariablesBlock_nameColumn in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.448
+!MESSAGE NLS unused message: PathVariablesBlock_valueColumn in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.448
+!MESSAGE NLS unused message: OpenDelayedFileAction_title in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.448
+!MESSAGE NLS unused message: OpenDelayedFileAction_message_errorOnOpen in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:40.449
+!MESSAGE NLS unused message: OpenDelayedFileAction_message_fileNotFound in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.233
+!MESSAGE NLS unused message: classformat_invokedynamic in: org.eclipse.jdt.internal.core.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.288
+!MESSAGE NLS unused message: JavadocProblemsConfigurationBlock_note_title in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.289
+!MESSAGE NLS unused message: FavoriteStaticMemberInputDialog_member_new_title in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.330
+!MESSAGE NLS unused message: LineWrappingTabPage_declaration in: org.eclipse.jdt.internal.ui.preferences.formatter.FormatterMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.331
+!MESSAGE NLS unused message: LineWrappingTabPage_annotations in: org.eclipse.jdt.internal.ui.preferences.formatter.FormatterMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.331
+!MESSAGE NLS unused message: CodingStyleConfigurationBlock_export_profiles_error_message in: org.eclipse.jdt.internal.ui.preferences.formatter.FormatterMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.332
+!MESSAGE NLS unused message: CodingStyleConfigurationBlock_export_profiles_overwrite_message in: org.eclipse.jdt.internal.ui.preferences.formatter.FormatterMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.346
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.527
+!MESSAGE NLS unused message: OpenImplementationAction_label in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.528
+!MESSAGE NLS unused message: OpenImplementationAction_error_title in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.528
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_select_element in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.529
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_libraries_no_location in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.529
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_source_no_location in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.530
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_opening_failed in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.530
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_code_resolve_failed in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.535
+!MESSAGE NLS unused message: RefreshViewAction_tooltip in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.536
+!MESSAGE NLS unused message: RefreshSingleElementAction_tooltip in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.536
+!MESSAGE NLS unused message: RefreshSingleElementAction_description in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.536
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_newType_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.537
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_newMember_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.537
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_edit_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.537
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_remove_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.538
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_restoreDefaults_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.538
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_browse_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.538
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_ChooseTypeDialog_title in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.539
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_ChooseTypeDialog_description in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.539
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_error_invalidTypeName in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.539
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_error_invalidMemberName in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.540
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_error_entryExists in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.580
+!MESSAGE NLS unused message: NewJavaProjectWizardPageOne_LocationGroup_location_desc in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.646
+!MESSAGE NLS unused message: MatchLocations_imports_description in: org.eclipse.jdt.internal.ui.search.SearchMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:41.900
+!MESSAGE NLS unused message: MarkerFilter_renameName in: org.eclipse.ui.views.markers.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.085
+!MESSAGE NLS unused message: DownloadAndOpenTaskAttachmentJob_cannotOpenEditor in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.086
+!MESSAGE NLS unused message: ScheduleDatePicker_Clear in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.086
+!MESSAGE NLS unused message: TaskSearchPage_Repository in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.087
+!MESSAGE NLS unused message: TasksUiPlugin_Activate_Task in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.087
+!MESSAGE NLS unused message: TasksUiPlugin_New_Task in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.087
+!MESSAGE NLS unused message: TaskAttachmentViewerBrowser_browser in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.134
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_Content_Type in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.135
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_Description in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.135
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_Filename in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.135
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_URL in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.150
+!MESSAGE NLS unused message: TaskScheduleContentProvider_Completed in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.150
+!MESSAGE NLS unused message: TaskScheduleContentProvider_Incoming in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.151
+!MESSAGE NLS unused message: TaskScheduleContentProvider_Outgoing in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.196
+!MESSAGE NLS unused message: CopyTaskDetailsAction_Summary_Menu_Label in: org.eclipse.mylyn.internal.tasks.ui.actions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.196
+!MESSAGE NLS unused message: DeleteTaskEditorAction_Delete_Task in: org.eclipse.mylyn.internal.tasks.ui.actions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.213
+!MESSAGE NLS unused message: DatePicker_Clear in: org.eclipse.mylyn.internal.commons.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.349
+!MESSAGE NLS unused message: SortCriterion_Type in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.350
+!MESSAGE NLS unused message: SortKindEntry_Rank in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.350
+!MESSAGE NLS unused message: SortKindEntry_Due_Date in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.350
+!MESSAGE NLS unused message: TasksUiInternal_Activate_Task in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:42.476
+!MESSAGE NLS unused message: QuickDiffConfigurationBlock_referenceProviderNoteTitle in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:43.418
+!MESSAGE NLS unused message: RSS_No_news in: org.eclipse.ui.internal.intro.impl.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:44.219
+!MESSAGE NLS unused message: nameRevisionAndAuthor in: org.eclipse.team.internal.ccvs.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:44.220
+!MESSAGE NLS unused message: RepositoriesView_NoFilter in: org.eclipse.team.internal.ccvs.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:44.221
+!MESSAGE NLS unused message: RepositoriesView_FilterOn in: org.eclipse.team.internal.ccvs.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:22:44.222
+!MESSAGE NLS unused message: CVSHistoryPage_OpenWithMenu in: org.eclipse.team.internal.ccvs.ui.messages
+!SESSION 2013-04-24 20:23:14.221 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2013-04-24 20:23:14.782
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:14.878
+!MESSAGE NLS unused message: Phase_Configure_Task in: org.eclipse.equinox.internal.p2.engine.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:14.879
+!MESSAGE NLS unused message: Phase_Install_Task in: org.eclipse.equinox.internal.p2.engine.messages
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2013-04-24 20:23:16.051
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2013-04-24 20:23:16.612
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.297
+!MESSAGE NLS unused message: useDefaultLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.301
+!MESSAGE NLS unused message: linkedResourcesPreference_copy in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.302
+!MESSAGE NLS unused message: LinkedResourcesPreference_promptVirtual in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.302
+!MESSAGE NLS unused message: PathVariableDialog_variableResolvedValue in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.302
+!MESSAGE NLS unused message: PathVariableDialog_variable in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.303
+!MESSAGE NLS unused message: ResourceFilterPage_noResource in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.303
+!MESSAGE NLS unused message: ResourceFilterPage_addButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.303
+!MESSAGE NLS unused message: ResourceFilterPage_editButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.304
+!MESSAGE NLS unused message: ResourceFilterPage_removeButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.304
+!MESSAGE NLS unused message: ResourceFilterPage_columnFilterDescription in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.305
+!MESSAGE NLS unused message: ResourceFilterPage_caseSensitive in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.305
+!MESSAGE NLS unused message: ResourceFilterPage_multiMatcher_Matcher in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.305
+!MESSAGE NLS unused message: ResourceFilterPage_addSubFilterActionLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.306
+!MESSAGE NLS unused message: ResourceFilterPage_removeFilterActionLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.306
+!MESSAGE NLS unused message: ResourceFilterPage_editFilterActionLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.306
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.307
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.307
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyCreated in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.307
+!MESSAGE NLS unused message: ResourceFilterPage_multiKeyReadOnly in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.307
+!MESSAGE NLS unused message: ResourceFilterPage_multiEquals in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.308
+!MESSAGE NLS unused message: ResourceFilterPage_multiMatches in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.308
+!MESSAGE NLS unused message: ResourceFilterPage_true in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.308
+!MESSAGE NLS unused message: ResourceFilterPage_false in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.309
+!MESSAGE NLS unused message: ResourceInfo_virtualFolder in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.309
+!MESSAGE NLS unused message: ResourceInfo_edit in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.309
+!MESSAGE NLS unused message: ResourceInfo_attributes in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.310
+!MESSAGE NLS unused message: ResourceInfo_owner in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.310
+!MESSAGE NLS unused message: ResourceInfo_group in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.310
+!MESSAGE NLS unused message: ResourceInfo_other in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.311
+!MESSAGE NLS unused message: ResourceInfo_read in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.311
+!MESSAGE NLS unused message: ResourceInfo_write in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.311
+!MESSAGE NLS unused message: ResourceInfo_execute in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.312
+!MESSAGE NLS unused message: ProjectLinkedResourcePage_linkedResourcesTabTitle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.312
+!MESSAGE NLS unused message: LinkedResourceEditor_editLinkedLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.312
+!MESSAGE NLS unused message: LinkedResourceEditor_path in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.313
+!MESSAGE NLS unused message: LinkedResourceEditor_location in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.313
+!MESSAGE NLS unused message: LinkedResourceEditor_broken in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.313
+!MESSAGE NLS unused message: linkedResourceEditor_OK in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.314
+!MESSAGE NLS unused message: PathVariablesBlock_nameColumn in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.314
+!MESSAGE NLS unused message: PathVariablesBlock_valueColumn in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.315
+!MESSAGE NLS unused message: OpenDelayedFileAction_title in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.315
+!MESSAGE NLS unused message: OpenDelayedFileAction_message_errorOnOpen in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:17.315
+!MESSAGE NLS unused message: OpenDelayedFileAction_message_fileNotFound in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.082
+!MESSAGE NLS unused message: classformat_invokedynamic in: org.eclipse.jdt.internal.core.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.124
+!MESSAGE NLS unused message: JavadocProblemsConfigurationBlock_note_title in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.126
+!MESSAGE NLS unused message: FavoriteStaticMemberInputDialog_member_new_title in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.141
+!MESSAGE NLS unused message: disassembler_comma in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.268
+!MESSAGE NLS unused message: OpenImplementationAction_label in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.268
+!MESSAGE NLS unused message: OpenImplementationAction_error_title in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.269
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_select_element in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.269
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_libraries_no_location in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.270
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_source_no_location in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.270
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_opening_failed in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.270
+!MESSAGE NLS unused message: OpenAttachedJavadocAction_code_resolve_failed in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.276
+!MESSAGE NLS unused message: RefreshViewAction_tooltip in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.277
+!MESSAGE NLS unused message: RefreshSingleElementAction_tooltip in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.277
+!MESSAGE NLS unused message: RefreshSingleElementAction_description in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.278
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_newType_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.278
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_newMember_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.278
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_edit_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.279
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_remove_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.279
+!MESSAGE NLS unused message: ExpandWithConstructorsConfigurationBlock_restoreDefaults_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.279
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_browse_button in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.280
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_ChooseTypeDialog_title in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.280
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_ChooseTypeDialog_description in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.280
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_error_invalidTypeName in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.281
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_error_invalidMemberName in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.281
+!MESSAGE NLS unused message: CallHierarchyTypesOrMembersDialog_error_entryExists in: org.eclipse.jdt.internal.ui.callhierarchy.CallHierarchyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.309
+!MESSAGE NLS unused message: NewJavaProjectWizardPageOne_LocationGroup_location_desc in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.477
+!MESSAGE NLS unused message: MatchLocations_imports_description in: org.eclipse.jdt.internal.ui.search.SearchMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.658
+!MESSAGE NLS unused message: MarkerFilter_renameName in: org.eclipse.ui.views.markers.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.848
+!MESSAGE NLS unused message: DownloadAndOpenTaskAttachmentJob_cannotOpenEditor in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.849
+!MESSAGE NLS unused message: ScheduleDatePicker_Clear in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.849
+!MESSAGE NLS unused message: TaskSearchPage_Repository in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.850
+!MESSAGE NLS unused message: TasksUiPlugin_Activate_Task in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.850
+!MESSAGE NLS unused message: TasksUiPlugin_New_Task in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.850
+!MESSAGE NLS unused message: TaskAttachmentViewerBrowser_browser in: org.eclipse.mylyn.internal.tasks.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.896
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_Content_Type in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.897
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_Description in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.897
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_Filename in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.897
+!MESSAGE NLS unused message: BugzillaAttachmentMapper_URL in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.912
+!MESSAGE NLS unused message: TaskScheduleContentProvider_Completed in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.912
+!MESSAGE NLS unused message: TaskScheduleContentProvider_Incoming in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.912
+!MESSAGE NLS unused message: TaskScheduleContentProvider_Outgoing in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.953
+!MESSAGE NLS unused message: CopyTaskDetailsAction_Summary_Menu_Label in: org.eclipse.mylyn.internal.tasks.ui.actions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.953
+!MESSAGE NLS unused message: DeleteTaskEditorAction_Delete_Task in: org.eclipse.mylyn.internal.tasks.ui.actions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:18.970
+!MESSAGE NLS unused message: DatePicker_Clear in: org.eclipse.mylyn.internal.commons.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.088
+!MESSAGE NLS unused message: SortCriterion_Type in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.088
+!MESSAGE NLS unused message: SortKindEntry_Rank in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.089
+!MESSAGE NLS unused message: SortKindEntry_Due_Date in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.089
+!MESSAGE NLS unused message: TasksUiInternal_Activate_Task in: org.eclipse.mylyn.internal.tasks.ui.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.193
+!MESSAGE NLS unused message: QuickDiffConfigurationBlock_referenceProviderNoteTitle in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.466
+!MESSAGE NLS unused message: RSS_No_news in: org.eclipse.ui.internal.intro.impl.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.912
+!MESSAGE NLS unused message: nameRevisionAndAuthor in: org.eclipse.team.internal.ccvs.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.913
+!MESSAGE NLS unused message: RepositoriesView_NoFilter in: org.eclipse.team.internal.ccvs.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.914
+!MESSAGE NLS unused message: RepositoriesView_FilterOn in: org.eclipse.team.internal.ccvs.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-04-24 20:23:19.916
+!MESSAGE NLS unused message: CVSHistoryPage_OpenWithMenu in: org.eclipse.team.internal.ccvs.ui.messages

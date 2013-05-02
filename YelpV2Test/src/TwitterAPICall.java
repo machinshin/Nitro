@@ -54,8 +54,8 @@ public class TwitterAPICall {
 	    //System.out.println(line);
 		Pattern p=Pattern.compile("\"text\":\"(.*?)}");
 		Matcher m = p.matcher(line);
-	//	while(m.find()) {
-	//	System.out.println(m.group(1));}
+		while(m.find()) {
+		System.out.println(m.group(1));}
 		int c1=line.length();
 		line=line.replaceAll("metadata", "");
 		int c2=line.length();

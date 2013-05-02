@@ -1,6 +1,3 @@
-import java.io.IOException;
-import java.net.MalformedURLException;
-
 import org.scribe.builder.ServiceBuilder;
 import org.scribe.model.OAuthRequest;
 import org.scribe.model.Response;
@@ -123,13 +120,12 @@ public class RunMe {
 			
 	}
 
-
-	public static void main(String[] args) throws MalformedURLException, IOException {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new RunMe().start();
-		TwitterAPICall tsearch=new TwitterAPICall();
-
-		  tsearch.search();
 	}
 
 }

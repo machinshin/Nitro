@@ -1,0 +1,39 @@
+Nitro,
+
+CMPE 272 Team 11 Project, aka When2Promote
+
+Installation:
+
+Install:
+(This assumes commandline installation on either a linux or osx machine,
+ if you're using windows, stop that, aka, you're on your own)
+
+    1) mysql.
+    2) play framework ( http://downloads.typesafe.com/play/2.1.1/play-2.1.1.zip )
+        Installation instructions for play framework: http://www.playframework.com/documentation/2.1.1/Installing
+    3) GWT framework: https://developers.google.com/web-toolkit/download
+        Installation Instructions for GWT:
+        https://developers.google.com/web-toolkit/gettingstarted
+    4) if you don't have it installed, sbt: http://www.scala-sbt.org/
+    5) if you don't have it installed: ant:http://ant.apache.org/
+    6) pull down the github repo
+    7) make sure mysqld is running, log in as root user and run:  Nitro/play/conf/create_db.sql
+        This will create the playuser that is used by play to query/write to
+        the database.
+    8) cd Nitro/play , startup play from the commandline:
+        $ play compile && play run &
+    9) After a minute or so, play will startup the server.
+        Then goto your browser and load up: http://localhost:9000
+        Play will tell you that your database is outdated and needs to run an evolution
+        this is basically the play ORM (ebeans) asking to create the backend tables
+        in the database, click on the run script button.
+    10) go back to the commandline and type `cd ../gwt` to goto the gwt folder
+    type: $ ant devmode.
+    this will launch a gwt popup, in a minute or so, it will load and then you can
+    click 'Launch in Default Browser' then a webpage will show up.
+    in another tab, goto yelp.com and find a business, in the url there will be
+    business id, such as here:  http://www.yelp.com/biz/starbucks-san-jose-67
+    copy-paste the 'starbucks-san-jose-67' into the textbox in When2Promote
+    then click Submit.
+    You're now up and running on Nitro!!!
+

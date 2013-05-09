@@ -1,0 +1,28 @@
+@(business: BusinessRating)(reviews: List[YelpReview])
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@business.name</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+            <th> Yelp Rating </th>
+            <th> User </th>
+            <th> Excerpt </th>
+            <th> Time Created</th>
+            @for(review <- reviews) {
+            </tr>
+                <td> @review.rating</td>
+                <td> @review.user_name</td>
+                <td> @review.excerpt</td>
+                <td> @review.timeCreated</td>
+            <tr>
+            }
+        </tr>
+    </table>
+
+    </body>
+</html>
+

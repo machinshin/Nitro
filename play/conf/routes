@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET /                   controllers.Application.index()
+GET /search             controllers.Application.search()
+POST /api/yelp.json     controllers.Application.yelpToJson()
+POST /api/twitter.json  controllers.Application.twitterToJson()
+POST /api/rating.json   controllers.Application.ratingToJson()
+POST /api/all.json      controllers.Application.allToJson()
+GET /api/all_service/:callback    controllers.Application.allService(callback: String)
+
+#     Map   static   resources   from   the                 /public                                   folder   to   the   /assets   URL   path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

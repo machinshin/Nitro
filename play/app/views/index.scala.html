@@ -1,0 +1,17 @@
+@(searchForm:Form[BizId])
+@import helper._
+
+@main("Restaurant Query") {
+    <h1> Welcome to Nitro! </h1>
+
+    @helper.form( action = routes.Application.search, args = 'id -> "searchForm") {
+    @helper.inputText(
+        field = searchForm("id"),
+        args = '_label -> "Yelp Business Id" )
+
+        <p class="buttons">
+            <input type="submit" value="Search">
+        </p>
+    }
+}
+

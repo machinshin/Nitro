@@ -1,0 +1,146 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="nitro.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>When2Promote</title>
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        //really really old version of jquery, wtf, google?
+        //google.load("jquery", "1.4.2" );
+        google.load("visualization", "1", {'packages' : ["corechart"]});
+    </script>
+
+    <script type="text/javascript">
+        function onSubmitClick( ) {
+            var businessId = $('#businessId').val();
+
+            var url = encodeURI("http://localhost:9000/api/all_service/callback=?");
+            $.ajax({
+                    url          : url,
+                    type: 'GET',
+                    //aysync: false,
+                    data         : {'id' : businessId},
+                    dataType     : 'jsonp',
+                    crossDomain  : true,
+                    contentType  : 'application/json',
+                    success: function(data){
+                        //console.log("data Loaded : " + data);
+                        drawVisualization(data.tweets);
+                        drawYelpGraph(data.reviews);
+                        analysis(data.rating);
+                    },
+                    error: function(data) {
+                        window.alert("error!! came back!");
+                        console.log("data Loaded : " + data);
+                    }
+                    });
+        }
+        function drawVisualization(tweets) {
+           // Create and populate the data table.
+
+           var table = new google.visualization.DataTable();
+           table.addColumn('string', 'Timestamp');
+           table.addColumn('number', 'Tweets');
+
+           tweets.map(function(tweet) {
+                console.log("timestamp: " + JSON.stringify(Date.parse(tweet.timestamp)));
+                console.log("num: " + JSON.stringify(tweet.numTweets));
+               table.addRow([ tweet.timestamp, tweet.numTweets]);
+           });
+
+            // Create and draw the visualization.
+            new google.visualization.LineChart(document.getElementById('visualization')).
+                draw(table, {curveType: "function",
+                width: 500, height: 400, vAxis: {maxValue: 5}});
+       }
+       function drawYelpGraph(reviews) {
+        var table = new google.visualization.DataTable();
+        table.addColumn('string', 'Timestamp');
+        table.addColumn('number', 'Rating');
+
+        reviews.map(function(rev) {
+            table.addRow([ rev.time_created, rev.rating ]);
+        });
+
+        new google.visualization.LineChart(document.getElementById('yelpGraph')).
+            draw( table, {curveType: "function", colors: ['red', '#004411'],
+                    width: 500, height: 400, vAxis: {maxValue: 5 }} );
+       }
+       function analysis( rating ) {
+
+           var text = "";
+           console.log("rating: " + rating.rating);
+
+           if( rating.avgRating < 3.5) {
+               text = "Your Yelp rating is "+rating.avgRating +
+                   " with " + rating.numReviews +
+                   " reviews , you should advertise more!";
+           } else {
+               text = rating.avgRating + " stars? Wow! " +
+                   "Great job! Your business is rocking!";
+            }
+           //console.log("text = " + text);
+           $('#yelpAnalysis').text(text);
+           $('#yelpAnalysis').show();
+       }
+      google.setOnLoadCallback();
+    </script>
+    <!--<script type="text/javascript" language="javascript" src="nitro/nitro.nocache.js"></script>-->
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+
+    <!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+    <h1>When2Promote</h1>
+    <div id="get_biz_id" style="display:none; width=100%"></div>
+    <form>
+        <label class="bizIdHeader">Yelp Business Id</label>
+        <input id="businessId" type="text" name="businessId" required>
+        <div class="gwt-button">
+            <br/>
+        <input type="button" value="Submit" onClick="onSubmitClick()">
+        </div>
+    </form>
+    <table>
+        <tr><td>
+            <div id="visualization" style="width: 500px; height: 400px;"></div>
+        </td><td>
+        <div id="yelpGraph" style="width: 500px; height: 400px;"></div>
+</td></tr>
+</table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id="yelpAnalysis" style="color: red; display none;" hidden> </div>
+  </body>
+</html>
